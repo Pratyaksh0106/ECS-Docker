@@ -9,4 +9,9 @@ router.get("/health", (req, res) => {
   res.status(200).json({ message: "Everything is good here 👀" });
 });
 
+// router.get("/health", (req, res) => 
+ 
+//   res.status(200).json({ message: "Everything is good here 👀" })
+// );
+
 export default router;
